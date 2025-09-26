@@ -13,7 +13,6 @@ env:
 
 jobs:
   build-platforms:
-    if: github.repository == 'bluesky-social/atproto'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     permissions:
